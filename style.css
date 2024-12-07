@@ -1,0 +1,57 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: Figtree;
+}
+
+p {
+  font-size: 16px;
+}
+
+.box {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 6px 6px 0 black;
+}
+
+.xmlns {
+  border-radius: 10px;
+}
+
+.btn-am {
+  padding: 7px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  font-size: 800;
+}
+
+.autor {
+  display: flex;
+  gap: 15px;
+}
+
+.attribution {
+  margin-top: 40px;
+}
+
+.grisclaro {
+  color: hsl(0, 0%, 42%);
+}
+.grisoscuro {
+  color: hsl(0, 0%, 7%);
+}
+
+.pointer a {
+  text-decoration: none;
+  color: black;
+}
+.pointer a:hover {
+  color: hsl(47, 88%, 63%);
+}
